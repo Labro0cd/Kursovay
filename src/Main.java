@@ -12,22 +12,6 @@ public class Main {
         employees[8] = new Employee("Gleb", 3, 60_000);
         employees[9] = new Employee("Ilya", 4, 50_000);
 
-        allEmployee(employees);
-        System.out.println(allSalaryInMonth(employees));
-        System.out.println(minSalaryOnEmployee(employees));
-        System.out.println(mixSalaryOnEmployee(employees));
-        System.out.println(middleSalary(employees));
-        fioAllEmployee(employees);
-        shiftSalary(employees, 10);
-        System.out.println(minSalaryInDepartment(employees, 2));
-        System.out.println(maxSalaryInDepartment(employees, 1));
-        System.out.println(middleSalaryInDepartment(employees, 3));
-        shiftSalaryInDepartment(employees,1,15);
-        allEmployeeInDepartment(employees, 2);
-        System.out.println("////////");
-        salaryLessNumber(employees,60000);
-        System.out.println("////////");
-        salaryMoreNumber(employees, 100000);
     }
 
     public static void allEmployee(Employee[] employees) {
